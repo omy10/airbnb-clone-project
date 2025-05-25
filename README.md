@@ -57,6 +57,89 @@ A high-performance web server that can act as a reverse proxy for Django and ser
 🔁 Git & GitHub
 Version control tools for tracking changes, collaborating as a team, and deploying code from repositories.
 
+# Database Design
+
+The database schema for the Airbnb Clone project includes several core entities that represent the functionality of the platform. Below are the main entities, their key fields, and relationships:
+
+### Users
+Represents the individuals using the platform.
+
+**Key Fields:**
+- `id` (Primary Key)
+- `name`
+- `email`
+- `password`
+- `user_type` (e.g., host, guest)
+
+**Relationships:**
+- A user can own multiple properties.
+- A user can make multiple bookings.
+- A user can leave multiple reviews.
+
+---
+
+### Properties
+Represents the listings available for rent.
+
+**Key Fields:**
+- `id` (Primary Key)
+- `title`
+- `description`
+- `location`
+- `price_per_night`
+- `host_id` (Foreign Key → Users)
+
+**Relationships:**
+- A property belongs to a host (User).
+- A property can have multiple bookings and reviews.
+
+---
+
+###  Bookings
+Tracks the reservation details for properties.
+
+**Key Fields:**
+- `id` (Primary Key)
+- `user_id` (Foreign Key → Users)
+- `property_id` (Foreign Key → Properties)
+- `start_date`
+- `end_date`
+- `total_price`
+
+**Relationships:**
+- A booking is made by a user.
+- A booking is for one property.
+
+---
+
+###  Reviews
+Captures feedback about properties.
+
+**Key Fields:**
+- `id` (Primary Key)
+- `user_id` (Foreign Key → Users)
+- `property_id` (Foreign Key → Properties)
+- `rating`
+- `comment`
+
+**Relationships:**
+- A review is written by a user for a specific property.
+
+---
+
+###  Payments
+Handles payment transactions for bookings.
+
+**Key Fields:**
+- `id` (Primary Key)
+- `booking_id` (Foreign Key → Bookings)
+- `payment_method`
+- `payment_status`
+- `transaction_date`
+
+**Relationships:**
+- A payment is linked to a booking.
+
 
 
 
