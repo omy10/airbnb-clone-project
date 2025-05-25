@@ -140,6 +140,26 @@ Handles payment transactions for bookings.
 **Relationships:**
 - A payment is linked to a booking.
 
+## Feature Breakdown
+
+### 1. User Management
+This feature allows users to sign up, log in, and manage their profiles. It supports both guests and hosts, enabling secure access and role-based functionality.
+
+### 2. Property Management
+Hosts can add, update, and delete property listings. Each listing includes details like location, price, images, and availability to attract potential guests.
+
+### 3. Booking System
+Guests can book available properties for selected dates. This feature handles checking availability, calculating the total cost, and preventing overlapping bookings.
+
+### 4. Review System
+After staying at a property, guests can leave reviews and ratings. This helps build trust and provides feedback to hosts and future users.
+
+### 5. Payment Integration
+The platform supports secure payments for bookings. Users can complete transactions using different payment methods, and the system records each payment.
+
+### 6. Search and Filter
+Guests can search for properties based on location, price, and availability. Filters help users quickly find properties that meet their needs.
+
 
 
 
