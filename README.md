@@ -24,3 +24,5 @@ Leads the team by defining the project goals, prioritizing tasks, managing timel
 
 🧩 UX/UI Designer
 Focuses on user research and experience design. They prototype interfaces and optimize user journeys to ensure intuitive and aesthetically pleasing interaction with the platform.
+
+
