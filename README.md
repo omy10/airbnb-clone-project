@@ -189,7 +189,20 @@ All data transmitted between the client and server will be encrypted using HTTPS
 
 **Why it matters:** It ensures user information (like passwords or payment details) is securely transmitted and cannot be intercepted.
 
+## CI/CD Pipelines
+CI/CD (Continuous Integration and Continuous Deployment) is a development practice that helps teams deliver code changes more frequently and reliably. In this project, CI/CD pipelines will automatically test, build, and deploy the application whenever new code is pushed. This helps catch bugs early, ensures consistency, and speeds up the development process.
 
+Why CI/CD is Important:
+Quality assurance: Code is automatically tested before it's deployed.
+
+Faster delivery: Changes go live faster with less manual work.
+
+Team collaboration: Everyone works on the same automated process, reducing errors.
+
+Tools Used:
+GitHub Actions: Automates testing and deployment workflows when changes are pushed to the repository.
+
+Docker: Ensures the application runs in the same environment across development and production.
 
 
 
