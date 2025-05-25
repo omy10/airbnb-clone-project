@@ -1,7 +1,7 @@
 # airbnb-clone-project
 The Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables learners to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
 
-#Team Roles
+# Team Roles
 Our project team is composed of professionals assigned to specific roles to ensure the successful development and deployment of our Airbnb booking platform. Each team member brings unique skills that align with the responsibilities outlined below:
 
 Backend Developer
@@ -24,6 +24,8 @@ Leads the team by defining the project goals, prioritizing tasks, managing timel
 
  UX/UI Designer
 Focuses on user research and experience design. They prototype interfaces and optimize user journeys to ensure intuitive and aesthetically pleasing interaction with the platform.
+
+
 
 # Technology Stack
 Our Airbnb booking platform is built using a modern and scalable technology stack. Each component plays a key role in delivering a robust and responsive application.
