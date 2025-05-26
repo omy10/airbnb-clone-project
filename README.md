@@ -204,5 +204,12 @@ GitHub Actions: Automates testing and deployment workflows when changes are push
 
 Docker: Ensures the application runs in the same environment across development and production.
 
+## Backend Features and Functionalities
+
+This diagram outlines the core backend functionalities of the Airbnb Clone project:
+
+![Backend Functionalities Diagram](features-and-functionalities/Dataflow.png)
+
+
 
 
